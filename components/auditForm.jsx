@@ -9,7 +9,7 @@ export default function AuditSubmissionForm() {
 
   return (
     <div className="container mx-auto text-center">
-      <code><h1 className="text-3xl text-gray-900 font-medium mb-4 text-center">Audit Submission Form</h1></code>
+      <h1 className="text-3xl text-gray-900 font-medium mb-4 text-center">Audit Submission Form</h1>
       <form className="mb-4">
         <TextField
           label="Contract Name"

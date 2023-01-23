@@ -27,9 +27,9 @@ import AuditSubmissionForm from "../components/auditForm";
 	  <AuditSubmissionForm />
 
 	  <footer className="py-4">
-    <h6 className="text-lg text-gray-900 font-medium text-center">
+    <Typography h className="text-lg text-gray-900 font-medium text-center">
       Smart Contract Auditing Inc.
-    </h6>
+    </Typography>
     <Typography className="text-yellow-400 text-center">
       We are dedicated to providing the best cybersecurity solutions for
       blockchain-based applications.
