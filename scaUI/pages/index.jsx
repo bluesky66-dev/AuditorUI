@@ -18,9 +18,7 @@ export default function Home() {
 					</a>
 				</div>
 			</header>
-			<main className={styles.main}>
 				<Dashboard/>
-			</main>
 		</div>
 	);
 }
