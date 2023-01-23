@@ -24,10 +24,10 @@ export default function AuditorDashboard() {
 
 	return (
 		<div className="container mx-auto">
-			<h1 className="text-2xl font-medium mb-4 text-center">
+			<h1 className="text-3xl text-yellow-400 font-medium text-center">
                 🔥 Auditor Dashboard
 			</h1>
-			<h2 className="text-xl font-medium mb-4 underline">Assigned Audits</h2>
+			<h2 className="text-xl text-yellow-400 text-center font-medium mb-4 pt-5 underline">🔥 Assigned Audits</h2>
 			<TableContainer component={Paper} className='mb-10'>
 				<Table className="min-w-fit" aria-label="simple table">
 					<TableHead>
@@ -62,7 +62,7 @@ export default function AuditorDashboard() {
 			</TableContainer>
 
 
-			<h2 className="text-xl font-medium mb-4">Audit History</h2>
+			<h2 className="text-xl text-yellow-400 text-center font-medium pt-5 mb-4">🔥 Audit History</h2>
 			<TableContainer component={Paper}>
 				<Table className="min-w-fit" aria-label="simple table">
 					<TableHead>
@@ -99,8 +99,8 @@ export default function AuditorDashboard() {
 					</TableBody>
 				</Table>
 			</TableContainer>
-			<h2 className="text-xl font-medium mb-4">Auditor Profile</h2>
-			<TableContainer component={Paper}>
+			<h2 className="text-xl text-yellow-400 text-center font-medium pt-5 ">🔥 Auditor Profile</h2>
+			<TableContainer component={Paper} className='my-1'>
                 <Table className="min-w-fit" aria-label="simple table">
                     <TableHead>
                         <TableRow>

@@ -21,9 +21,9 @@ export default function AuditQueue() {
 	}, []);
 
 	return (
-		<div className="container mx-auto">
-			<h1 className="text-2xl font-medium mb-4 text-center">
-				Audit Queue
+		<div className="container mx-auto pt-5">
+			<h1 className="text-2xl text-yellow-400 mt-5 font-medium mb-4 text-center">
+            🔥 Audit Queue
 			</h1>
 			<TableContainer component={Paper}>
 				<Table className="min-w-fit" aria-label="simple table">

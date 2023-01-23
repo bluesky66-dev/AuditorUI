@@ -4,7 +4,9 @@ import Dashboard from '../components/dashboard'
 
 function audit_dashboard() {
   return (
-    <><Dashboard /><AuditStatusDash /></>
+    <><Dashboard />
+    <div className="ml-72 pt-5"></div>
+    <AuditStatusDash /></>
   )
 }
 

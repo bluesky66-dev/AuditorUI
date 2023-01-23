@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import "@rainbow-me/rainbowkit/styles.css";
 
-import { getDefaultWallets, RainbowKitProvider } from "@rainbow-me/rainbowkit";
+import { darkTheme, getDefaultWallets, RainbowKitProvider } from "@rainbow-me/rainbowkit";
 import { configureChains, createClient, WagmiConfig } from "wagmi";
 import {  polygonMumbai } from "wagmi/chains";
 import { alchemyProvider } from "wagmi/providers/alchemy";
@@ -14,7 +14,7 @@ const { chains, provider } = configureChains(
 );
 
 const { connectors } = getDefaultWallets({
-	appName: "My Alchemy DApp",
+	appName: "Smart Contract Auditing",
 	chains,
 });
 
@@ -28,7 +28,7 @@ export { WagmiConfig, RainbowKitProvider };
 function MyApp({ Component, pageProps }) {
 	return (
 		<WagmiConfig client={wagmiClient}>
-			<RainbowKitProvider modalSize="compact" chains={chains}>
+			<RainbowKitProvider coolMode chains={chains} theme={darkTheme()}>
 				<MainLayout>
 					<Component {...pageProps} />
 				</MainLayout>

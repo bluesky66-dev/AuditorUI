@@ -20,8 +20,8 @@ export default function AuditStatusDash() {
   }, []);
 
   return (
-    <div className="container mx-auto">
-      <h1 className="text-2xl font-medium mb-4 mt-4 text-center">🔥 Audit Status Dashboard</h1>
+    <div className="container mx-auto mt-5">
+      <h1 className="text-2xl font-medium text-yellow-400 mb-4 mt-5 text-center">🔥 Audit Status Dashboard</h1>
       <TableContainer component={Paper}>
         <Table className='min-w-fit' aria-label="simple table">
           <TableHead>

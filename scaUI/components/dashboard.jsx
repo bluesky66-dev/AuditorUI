@@ -19,9 +19,10 @@ export default function Dashboard() {
 
 	return (
 		<div className="container mx-auto">
-			<h1 className="text-2xl font-medium mb-4 text-center">
-				🔥 Audit Issue Dashboard
+			<h1 className="text-3xl text-yellow-400 font-medium mb-4 text-center">
+				🔥 Audit Submission Dashboard
 			</h1>
+			<h2 className="text-xl text-yellow-400 text-center font-medium mb-4 pt-5 underline">🔥 Submitted Audits</h2>
 			<TableContainer component={Paper}>
 				<Table className='min-w-fit' aria-label="simple table">
 					<TableHead>
