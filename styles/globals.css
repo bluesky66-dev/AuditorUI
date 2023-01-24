@@ -5,8 +5,7 @@
 html,
 body {
 	background: rgb(60, 60, 60);
-	height: 100%;
-	width: auto;
+	height: auto;
 	background: -moz-linear-gradient(
 		322deg,
 		rgba(60, 60, 60, 1) 8%,
