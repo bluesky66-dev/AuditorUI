@@ -122,7 +122,7 @@ export default function ManagerDashboard() {
 						<div className="my-2">Audit Fee</div>
 						<TextField variant="outlined" className="mx-auto" value={auditFee} />
 						<Button color="primary" variant="contained">{"Update Audit Fee"}</Button>
-            </div>
+            		</div>
 				</div>
 			</div>
 		</div>
