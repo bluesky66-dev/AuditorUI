@@ -40,9 +40,9 @@ export default function Navbar() {
               return (
                 <Button
 				variant="contained"
-				color="secondary"
+				color="primary"
 				size="medium"
-				style={{marginRight: 15, borderRadius:20, opacity: asPath === item.href ? 1 : 0.5, fontWeight: "200", fontSize: 15}}
+				style={{marginRight: 15, borderRadius:20, backgroundColor: 'transparent', opacity: asPath === item.href ? 1 : 0.5, fontWeight: "200", fontSize: 15}}
 			>
                   <Link href={item.href}>{item.name}</Link>
                 </Button>
